@@ -6,6 +6,8 @@ bot = Client(bot_token)
 try:
    messages = bot.get_messages()
    for message in messages:
-   print "test"
+        print("New message from {} \nType: {}\nBody: {}" .format(message['from'], message['type'], message['body']))
 except Exception as e:
    print(e.args[0])
+
+
