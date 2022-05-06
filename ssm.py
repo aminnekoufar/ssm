@@ -2,7 +2,7 @@
 from sys import path
 path.append('..')
 from client import Client
-bot_token = 'ssDTYjqst0Lpo3VQARbP1zO-rMlWQikUyCwjCEOXapqL9YznSHzek36SvITb2tTv2qdRXRt_0o8XZcZ-_BDZ86xgdNLMkC--gU5uzX5ow4jtXEJf6ehLvhmFcNtJPQcWKqFhiGBHZ0YV2Lw4'
+bot_token = '*'
 bot = Client(bot_token)
 send = bot.send_text
 try:
